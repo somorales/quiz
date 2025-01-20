@@ -1,0 +1,46 @@
+{
+  "quiz": [
+    {
+      "question": "¿Cuás de estas cosas se me da mejor?",
+      "answer1": "Cantar,¡menudo chorro de voz tengo!",
+      "answer2": "Bailar,¡no hay coreo de TikTok que se me resista!",
+      "answer3": "Hablar en publico,¡silencio en la sala!"
+    },
+    
+    {
+      "question": "Si estoy en la cola del súper y alguien se cuela, ¿cómo reacciono?",
+      "answer1": "Me enfado y le canto las cuarenta, ¡hombre ya!",
+      "answer2": "Bueno, tampoco tengo tanta prisa... ya me espero, no pasa nada.",
+      "answer3": "Le hago una broma y vuelvo a pasar yo delante."
+    },
+    {
+      "pregunta": "¿En qué consiste para mí la amistad?",
+      "answer1": "En poder confiarle a alguien todos mis secretos.",
+      "answer2": "En salir de fiesta y pasarlo fenomenal.",
+      "answer3": "En poder contar con alguien cuando las cosas se tuercen."
+    },
+    {
+      "pregunta": "Para mí, ¿qué sería lo mejor de alcanzar la fama?",
+      "answer1": "El pedazo de armario que podría tener.",
+      "answer2": "Followers, likes, reconocimiento, postureo...",
+      "answer3": "Poder coger vacaciones cuando me diese la gana."
+    },
+    {
+      "pregunta": "¿En qué disciplina me habría gustado participar en las olimpiadas?",
+      "answer1": "Gimnasia artística.",
+      "answer2": "Salto de trampolín.",
+      "answer3": "Tiro con arco."
+    },
+    {
+      "pregunta": "¿Qué me gusta menos?",
+      "answer1": "La envidia.",
+      "answer2": "La avaricia.",
+      "answer3": "El orgullo."
+    }
+
+
+  ]
+}
+
+  
+
