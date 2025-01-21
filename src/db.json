@@ -1,46 +1,548 @@
 {
   "quiz": [
     {
-      "question": "¿Cuás de estas cosas se me da mejor?",
-      "answer1": "Cantar,¡menudo chorro de voz tengo!",
-      "answer2": "Bailar,¡no hay coreo de TikTok que se me resista!",
-      "answer3": "Hablar en publico,¡silencio en la sala!"
-    },
-    
-    {
-      "question": "Si estoy en la cola del súper y alguien se cuela, ¿cómo reacciono?",
-      "answer1": "Me enfado y le canto las cuarenta, ¡hombre ya!",
-      "answer2": "Bueno, tampoco tengo tanta prisa... ya me espero, no pasa nada.",
-      "answer3": "Le hago una broma y vuelvo a pasar yo delante."
-    },
-    {
-      "pregunta": "¿En qué consiste para mí la amistad?",
-      "answer1": "En poder confiarle a alguien todos mis secretos.",
-      "answer2": "En salir de fiesta y pasarlo fenomenal.",
-      "answer3": "En poder contar con alguien cuando las cosas se tuercen."
-    },
-    {
-      "pregunta": "Para mí, ¿qué sería lo mejor de alcanzar la fama?",
-      "answer1": "El pedazo de armario que podría tener.",
-      "answer2": "Followers, likes, reconocimiento, postureo...",
-      "answer3": "Poder coger vacaciones cuando me diese la gana."
-    },
-    {
-      "pregunta": "¿En qué disciplina me habría gustado participar en las olimpiadas?",
-      "answer1": "Gimnasia artística.",
-      "answer2": "Salto de trampolín.",
-      "answer3": "Tiro con arco."
-    },
-    {
-      "pregunta": "¿Qué me gusta menos?",
-      "answer1": "La envidia.",
-      "answer2": "La avaricia.",
-      "answer3": "El orgullo."
-    }
-
+        "question": "Which of these things am I best at?",
+        "answer1": "Singing, what a powerful voice I have!",
+        "answer2": "Dancing, no TikTok choreography can resist me!",
+        "answer3": "Public speaking, silence in the room!"
+      },
+      {
+        "question": "If I'm in the supermarket line and someone cuts in, how do I react?",
+        "answer1": "I get angry and tell them off, no way!",
+        "answer2": "Well, I'm not in that much of a hurry... I'll just wait, it's fine.",
+        "answer3": "I make a joke and cut back in front of them."
+      },
+      {
+        "question": "What does friendship mean to me?",
+        "answer1": "Being able to trust someone with all my secrets.",
+        "answer2": "Going out partying and having a blast.",
+        "answer3": "Having someone to rely on when things go wrong."
+      },
+      {
+        "question": "For me, what would be the best thing about becoming famous?",
+        "answer1": "The amazing wardrobe I could have.",
+        "answer2": "Followers, likes, recognition, showing off...",
+        "answer3": "Being able to take vacations whenever I wanted."
+      },
+      {
+        "question": "In which discipline would I have liked to participate in the Olympics?",
+        "answer1": "Artistic gymnastics.",
+        "answer2": "Diving.",
+        "answer3": "Archery."
+      },
+      {
+        "question": "What do I like the least?",
+        "answer1": "Envy.",
+        "answer2": "Greed.",
+        "answer3": "Pride."
+      },
+      {
+        "question": "If I’m gifted €500 and told I have to spend it right away, what do I do?",
+        "answer1": "I completely revamp my wardrobe.",
+        "answer2": "I buy a plane ticket in no time.",
+        "answer3": "I treat my favorite people to dinner."
+      },
+      {
+        "question": "Which of these literary characters is my favorite?",
+        "answer1": "Harry Potter, it's all so magical!",
+        "answer2": "Dracula, the one by Bram Stoker.",
+        "answer3": "Atreyu from The NeverEnding Story."
+      },
+      {
+        "question": "What part of the body do I like being massaged the most?",
+        "answer1": "My feet.",
+        "answer2": "My head.",
+        "answer3": "My back."
+      },
+      {
+        "question": "In my opinion, success is achieved...",
+        "answer1": "By working super hard.",
+        "answer2": "With a lot of luck.",
+        "answer3": "With a little extra help here and there."
+      },
+      {
+        "question": "Where would I prefer to take a swim?",
+        "answer1": "In the crystal-clear waters of a Croatian island.",
+        "answer2": "In the Blue Lagoon (Iceland), with its amazing thermal waters.",
+        "answer3": "In the Dead Sea (Jordan), enjoying the zero-gravity sensation."
+      },
+      {
+        "question": "What kind of music are you most likely to catch me listening to?",
+        "answer1": "Ballads from the 70s, 80s, and all eras. Ah, l'amour...",
+        "answer2": "Disco music, it's always a good time to dance.",
+        "answer3": "Rock with strong guitar riffs. And if I can sing it at the top of my lungs, even better."
+      },
+      {
+        "question": "For me, tickling...",
+        "answer1": "Makes me laugh.",
+        "answer2": "Makes me angry.",
+        "answer3": "Doesn’t affect me at all."
+      },
+      {
+        "question": "If something needs to be organized, I...",
+        "answer1": "Step aside and let someone else take charge.",
+        "answer2": "Quickly take the reins, 'I'll handle it!'",
+        "answer3": "Help if asked, but I won’t take full responsibility."
+      },
+      {
+        "question": "What sound do I find the most relaxing?",
+        "answer1": "Any white noise (static TV, extractor fan hum...).",
+        "answer2": "Whale songs.",
+        "answer3": "The sound of rain."
+      },
+      {
+        "question": "Which of these three things can I tolerate the least?",
+        "answer1": "Mondays... seriously, again???",
+        "answer2": "Being lied to.",
+        "answer3": "Brussels sprouts, yuck!"
+      },
+      {
+        "question": "What literary genre do I prefer?",
+        "answer1": "Biographies and autobiographies.",
+        "answer2": "Romantic novels.",
+        "answer3": "Mystery and thriller novels."
+      },
+      {
+        "question": "Which of these places would I prefer to live in?",
+        "answer1": "New York, the city that never sleeps.",
+        "answer2": "A tiny remote village, as far from civilization as possible.",
+        "answer3": "Beijing, I love exotic vibes."
+      },
+      {
+        "question": "Which of these things, once I start, can I not stop doing?",
+        "answer1": "Popping bubble wrap.",
+        "answer2": "Blowing soap bubbles.",
+        "answer3": "Blowing bubblegum bubbles."
+      },
+      
+      {
+        "question": "Which wonder of the world would I absolutely want to see?",
+        "answer1": "The Great Wall of China.",
+        "answer2": "The city of Petra, in Jordan.",
+        "answer3": "Machu Picchu, in Peru."
+      },
+      {
+        "question": "What event would I really, really have loved to attend?",
+        "answer1": "The 1969 Woodstock festival, in Bethel (New York).",
+        "answer2": "The 1985 Live Aid concert, at Wembley Stadium.",
+        "answer3": "The original Coachella festival in 1999, in the Colorado Desert."
+      },
+      {
+        "question": "What annoys me the most?",
+        "answer1": "A great plan getting extended, and I can’t join.",
+        "answer2": "Getting up to go somewhere and forgetting why when I get there.",
+        "answer3": "Thinking of witty comebacks after the moment has passed."
+      },
+      {
+        "question": "Where would I prefer to spend an entire month?",
+        "answer1": "On a spaceship.",
+        "answer2": "In a submarine.",
+        "answer3": "On a sailboat."
+      },
+      {
+        "question": "Which of these superheroes do I prefer?",
+        "answer1": "Batman.",
+        "answer2": "Superman.",
+        "answer3": "Wonder Woman."
+      },
+      {
+        "question": "What would I most wish were real?",
+        "answer1": "Unicorns.",
+        "answer2": "Santa Claus.",
+        "answer3": "Batman."
+      },
+      {
+        "question": "What scares me the most?",
+        "answer1": "Thunderstorms.",
+        "answer2": "Airplane turbulence.",
+        "answer3": "Power outages."
+      },
+      {
+        "question": "If I could choose a superpower, which one would I pick?",
+        "answer1": "Teleportation, so I’d finally arrive on time to my appointments!",
+        "answer2": "Mind-reading, to know what others think of me.",
+        "answer3": "Invisibility, to sneak into forbidden places."
+      },
+      {
+        "question": "In which historical era would I prefer to have lived?",
+        "answer1": "The Middle Ages.",
+        "answer2": "The Renaissance.",
+        "answer3": "The Paleolithic era... for example."
+      },
+      {
+        "question": "If a genie granted me one wish, what would I ask for?",
+        "answer1": "The end of world hunger.",
+        "answer2": "To be enormously rich.",
+        "answer3": "To be immortal."
+      },
+      {
+        "question": "What would I do first if I won the lottery?",
+        "answer1": "Go tell my boss, 'Bye, bye!'",
+        "answer2": "Travel around the world... with all the time in the world.",
+        "answer3": "Donate a large part to several charities."
+      },
+      {
+        "question": "If I arrive at a party and someone is wearing the same outfit as me...",
+        "answer1": "I’d die of embarrassment and hide in the bathroom all night.",
+        "answer2": "I’d go home and change.",
+        "answer3": "I’d laugh my head off and even take pictures with the other person."
+      },
+      {
+        "question": "If I get lost while on vacation, what do I do?",
+        "answer1": "Ask the first person I see, even using gestures if necessary.",
+        "answer2": "Look for a map somewhere and find my way without help.",
+        "answer3": "Get lost? My middle name is 'Compass'!"
+      },
+      {
+        "question": "What would be my dream job?",
+        "answer1": "Doctor, to help people.",
+        "answer2": "Veterinarian, to always be around animals.",
+        "answer3": "Singer, the kind that fills stadiums."
+      },
+      {
+        "question": "What gets on my nerves the most?",
+        "answer1": "Last-minute plan changes.",
+        "answer2": "Being contradicted.",
+        "answer3": "People complaining about everything."
+      },
+      {
+        "question": "What do I think about fireworks?",
+        "answer1": "I love them; they’re magical.",
+        "answer2": "I’d ban them because they scare animals (and me a little too).",
+        "answer3": "Once or twice a year is fine."
+      },
+     
+      {
+        "question": "What landscape would I most like to explore on the back of an animal?",
+        "answer1": "The Giza Pyramid Plateau (Egypt), on a camel.",
+        "answer2": "The wild landscapes of Norway, on a dog sled.",
+        "answer3": "The lush region of Chiang Mai (Thailand), on a majestic elephant."
+      },
+      {
+        "question": "What do I expect from a new job?",
+        "answer1": "Learn a lot.",
+        "answer2": "Money, money... earn more cash!",
+        "answer3": "Have a schedule that allows me to focus on my own things."
+      },
+      {
+        "question": "What is my reaction to a surprise?",
+        "answer1": "Oh no, I don't like them at all... better warn me first!",
+        "answer2": "Neither hot nor cold, I stay the same.",
+        "answer3": "Ohhhhhh! I love them! How exciting!"
+      },
+      {
+        "question": "What would my ideal vacation spot be?",
+        "answer1": "A spectacular treehouse.",
+        "answer2": "A cabin under the palm trees, on a paradise beach.",
+        "answer3": "A 5-star hotel with an all-inclusive bracelet, like royalty!"
+      },
+      {
+        "question": "What makes me grumble?",
+        "answer1": "Being bored to death.",
+        "answer2": "Being hungry.",
+        "answer3": "Being sleepy."
+      },
+      {
+        "question": "Which of these three animals would I most like to have as a pet?",
+        "answer1": "A parrot.",
+        "answer2": "A chimpanzee.",
+        "answer3": "A deer."
+      },
+      {
+        "question": "What great mystery of humanity would I like to solve?",
+        "answer1": "The moon landing... did it really happen?",
+        "answer2": "The location of Atlantis.",
+        "answer3": "The Nazca Desert Lines in Peru."
+      },
+      {
+        "question": "Where would I have liked to study?",
+        "answer1": "At Hogwarts, learning magic. Expecto Patronum!",
+        "answer2": "At Rydell High School from Grease. Rama lama ka dinga da dinga dong!",
+        "answer3": "At the Jedi Temple from Star Wars... may the Force be with me!"
+      },
+      {
+        "question": "What would I rather be able to do?",
+        "answer1": "Speak all the languages in the world.",
+        "answer2": "Understand animals.",
+        "answer3": "Read minds."
+      },
+      {
+        "question": "If I realize someone is watching me, how do I react?",
+        "answer1": "I look them straight in the eyes, a stare-down duel!",
+        "answer2": "I turn red as a tomato and try to slip away.",
+        "answer3": "I directly ask them what they find soooo interesting."
+      },
+      {
+        "question": "What animal gives me nightmares?",
+        "answer1": "Spiders.",
+        "answer2": "Snakes.",
+        "answer3": "Sharks."
+      },
+      {
+        "question": "What natural wonder would I die to see in person?",
+        "answer1": "Iguazu Falls.",
+        "answer2": "The Uyuni Salt Flats in Bolivia.",
+        "answer3": "The Northern Lights."
+      },
+      {
+        "question": "Which of these great artists is my favorite?",
+        "answer1": "Pablo Picasso.",
+        "answer2": "Leonardo da Vinci.",
+        "answer3": "Vincent van Gogh."
+      },
+      {
+        "question": "Which diva would I most like to meet?",
+        "answer1": "Beyoncé.",
+        "answer2": "Marilyn Monroe.",
+        "answer3": "Lady Gaga."
+      },
+      {
+        "question": "Which historical figure would I prefer to meet?",
+        "answer1": "Napoleon Bonaparte.",
+        "answer2": "Cleopatra.",
+        "answer3": "Marco Polo."
+      },
+      {
+        "question": "How would I react if I met my favorite celebrity?",
+        "answer1": "I’d run to ask for an autograph, a selfie, and whatever else I could!",
+        "answer2": "I’d respect their privacy and say nothing.",
+        "answer3": "I’d follow them and record them on my phone—such an opportunity doesn’t come every day!"
+      },
+      {
+        "question": "What do I think about cosmetic surgery?",
+        "answer1": "When the time comes, I’m all in.",
+        "answer2": "I’d never go under the knife unless absolutely necessary.",
+        "answer3": "A little tweak here and there, but nothing drastic."
+      },
+      {
+        "question": "In which musical would I prefer to live?",
+        "answer1": "La La Land... alongside Ryan Gosling, of course.",
+        "answer2": "Moulin Rouge, because I can can-can!",
+        "answer3": "Grease, forever young."
+      },
+      {
+        "question": "How do I like my coffee?",
+        "answer1": "Black, very strong.",
+        "answer2": "With milk.",
+        "answer3": "Coffee? I don’t like coffee!"
+      },
+      {
+        "question": "In which fantasy country would I feel most at home?",
+        "answer1": "Narnia, of course—it’s right at the back of my closet.",
+        "answer2": "Hogwarts, crossing Platform 9¾.",
+        "answer3": "Avatar, blue suits me perfectly."
+      },
+      {
+        "question": "Which decade’s fashion do I like the most?",
+        "answer1": "The 60s: shoulder pads, colors, stonewashed jeans.",
+        "answer2": "The 50s: elegance and curves, lots of curves.",
+        "answer3": "The 70s: psychedelia, bell-bottoms... and disco music!"
+      },
+      {
+        "question": "What makes me laugh the most?",
+        "answer1": "The memes people send me—they crack me up!",
+        "answer2": "Videos of kittens and puppies—they’re adorable!",
+        "answer3": "A good stand-up comedy show—bravo!"
+      },
+      {
+        "question": "What am I most likely to do first?",
+        "answer1": "Have a child.",
+        "answer2": "Plant a tree.",
+        "answer3": "Write a book."
+      },
+      {
+        "question": "What colors do I like the most?",
+        "answer1": "Fluorescent colors: yellow, fuchsia, orange—go big or go home!",
+        "answer2": "Pastel tones: pink, mint, turquoise—so soft.",
+        "answer3": "Primary colors: red, blue, green—long live pop art!"
+      },
+      {
+        "question": "What recurring nightmare do I suffer from the most?",
+        "answer1": "Falling from a great height.",
+        "answer2": "Being chased and unable to run.",
+        "answer3": "Being naked in public."
+      },
+      {
+        "question": "Which Disney character is my favorite?",
+        "answer1": "Donald Duck.",
+        "answer2": "Mickey Mouse.",
+        "answer3": "Pluto."
+      },
+      {
+        "question": "Which of these all-time TV series is my favorite?",
+        "answer1": "Friends.",
+        "answer2": "The Sopranos.",
+        "answer3": "The X-Files."
+      },
+      {
+        "question": "Do I believe in ghosts?",
+        "answer1": "Hmm... I don’t really believe, but like myths, they might exist.",
+        "answer2": "Absolutely, I’ve even seen one!",
+        "answer3": "Not at all, don’t bring me such tales."
+      },
+      {
+        "question": "What would I do if I were invisible?",
+        "answer1": "Spy on people to know what they say about me.",
+        "answer2": "Fight crime.",
+        "answer3": "Play heavy pranks on others."
+      },
+      {
+        "question": "In which decade of the 1900s would I prefer to have lived?",
+        "answer1": "The glorious 1920s in Berlin",
+        "answer2": "The 1960s in San Francisco",
+        "answer3": "The 1980s in New York"
+      },
+      {
+        "question": "What ice cream flavor do I like the most?",
+        "answer1": "Dark chocolate, I'm not into sweets",
+        "answer2": "Pistachio, I don't know what it is, but I love it",
+        "answer3": "Vanilla, a classic"
+      },
+      {
+        "question": "Which of these three things am I best at?",
+        "answer1": "Photography, born to be an Instagrammer",
+        "answer2": "Improvising when faced with unexpected things, they can't catch me off guard!",
+        "answer3": "Drawing, I have an undeniable artistic flair"
+      },
+      {
+        "question": "What is my favorite movie genre?",
+        "answer1": "Action-packed, not a dull moment",
+        "answer2": "Comedy, because I go to the movies to laugh and have fun",
+        "answer3": "Drama, nothing like a good cry to let it all out"
+      },
+      {
+        "question": "What is my favorite time of day?",
+        "answer1": "The morning, I'm a morning person through and through",
+        "answer2": "I'm a night owl, just don't make me wake up early",
+        "answer3": "Midday is my peak time, that's when I'm at my best"
+      },
+      {
+        "question": "Do I believe in extraterrestrial life?",
+        "answer1": "Absolutely, the truth is out there!",
+        "answer2": "If aliens existed, we would already know by now...",
+        "answer3": "Not sure... I'll believe it when I see one"
+      },
+      {
+        "question": "What would I enjoy the most?",
+        "answer1": "An escape room with my friends",
+        "answer2": "A paintball battle",
+        "answer3": "A good snowfall, a sled... and fun!"
+      },
+      {
+        "question": "How much do I know about movies?",
+        "answer1": "Level 'Iranian and Korean cinema, yes please'",
+        "answer2": "If it isn't made in Hollywood, I don't care...",
+        "answer3": "I don't watch movies; I'm more into series. Next episode!"
+      },
+      {
+        "question": "What would I rather have?",
+        "answer1": "The hoverboard from Back to the Future",
+        "answer2": "The Titanic Explorer: the mini-submarine that explores Titanic's wreck",
+        "answer3": "Harry Potter's invisibility cloak"
+      },
+      {
+        "question": "Who would I prefer to have as a pet?",
+        "answer1": "Chewbacca from Star Wars",
+        "answer2": "Falkor from The NeverEnding Story",
+        "answer3": "Dobby from Harry Potter"
+      },
+      {
+        "question": "What is my ideal vacation destination?",
+        "answer1": "A paradisiacal beach",
+        "answer2": "A lush green valley",
+        "answer3": "A big city"
+      },
+      {
+        "question": "Which smell do I enjoy the most?",
+        "answer1": "Freshly brewed coffee",
+        "answer2": "Freshly baked bread",
+        "answer3": "Freshly cut grass"
+      },
+      {
+        "question": "Which superpower would I prefer to have?",
+        "answer1": "Breathing underwater",
+        "answer2": "Flying",
+        "answer3": "Walking through walls"
+      },
+      {
+        "question": "Which extinct animal would I have liked to see?",
+        "answer1": "Dinosaurs",
+        "answer2": "The dodo",
+        "answer3": "Mammoths"
+      },
+      {
+        "question": "If I had no other choice, what could I give up for a year?",
+        "answer1": "My mobile phone",
+        "answer2": "Hot water",
+        "answer3": "Chocolate"
+      },
+      {
+        "question": "What would be my ideal pet?",
+        "answer1": "Dogs. Dogs. The more, the merrier",
+        "answer2": "I'm more of a cat person, they're independent",
+        "answer3": "Horses. They're so beautiful"
+      },
+      {
+        "question": "What am I like when it comes to lies?",
+        "answer1": "I never lie, honesty above all",
+        "answer2": "Only if necessary or to avoid hurting someone",
+        "answer3": "Is there anything more fun than telling little lies (and not getting caught)?"
+      },
+      {
+        "question": "How do I prefer to greet and be greeted?",
+        "answer1": "With a handshake, nothing more",
+        "answer2": "A warm hug and two good kisses",
+        "answer3": "If I can avoid contact, even better"
+      },
+      {
+        "question": "How do I react in an emergency?",
+        "answer1": "I bring calm and reassurance to others",
+        "answer2": "I get really nervous and lose my composure",
+        "answer3": "I freeze and do absolutely nothing"
+      },
+      {
+        "question": "What do I like to do most?",
+        "answer1": "Take a nap",
+        "answer2": "Wake up early to make the most of the day",
+        "answer3": "Stay up late, as late as possible"
+      },
+      {
+        "question": "For shopping, what do I prefer?",
+        "answer1": "Everything online, from the comfort of my couch",
+        "answer2": "Everything from a shopping mall",
+        "answer3": "Small shops"
+      },
+      {
+        "question": "Where would I prefer to live?",
+        "answer1": "In a treehouse",
+        "answer2": "In a houseboat",
+        "answer3": "On the top floor of a skyscraper"
+      },
+      {
+        "question": "What would I like to try the most?",
+        "answer1": "Paragliding, who said fear?",
+        "answer2": "Swimming with dolphins",
+        "answer3": "Hot air ballooning. I like controlled risks"
+      },
+      {
+        "question": "Which wild animal would I most like to pet?",
+        "answer1": "A tiger, lion, or any big cat",
+        "answer2": "A panda bear",
+        "answer3": "A crocodile, python, or any large reptile"
+      },
+      {
+        "question": "Which amusement ride would I go on again and again?",
+        "answer1": "The roller coaster",
+        "answer2": "The pirate ship",
+        "answer3": "The haunted house"
+      },
+      {
+        "question": "What would I love to have 24/7?",
+        "answer1": "A personal chef",
+        "answer2": "A masseuse whenever I want",
+        "answer3": "A chauffeur to take me everywhere"
+      }
 
   ]
+
 }
-
-  
-
