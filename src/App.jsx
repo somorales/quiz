@@ -1,12 +1,18 @@
-import React from 'react'
+import React from "react";
 import { Routes, Route } from "react-router-dom";
+
+//Pages
+import HomePage from "./pages/HomePage";
+import NavBar from "./components/NavBar";
 
 export default function App() {
   return (
-    <div>
-      hola
-    </div>
+  <>
+  <NavBar />
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
+    
+  </>
   )
 }
-
-
