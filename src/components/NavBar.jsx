@@ -15,10 +15,10 @@ export default function NavBar() {
           </Link>
           <div className="flex flex-row justify-between gap-8 text-xl">
             <Link
-              to="/about"
-              className= "text-slate-[#065471] hover:text-slate-[#053E53] hover:font-bold"
+              to="/playGuide"
+              className= "text-[#065471] hover:text-[#053E53] hover:font-bold"
             >
-              About
+              Play Guide
             </Link>
           </div>
         </div>
