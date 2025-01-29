@@ -5,8 +5,8 @@ export default function HomePage() {
   return (
     <div>
       <div className=" min-h-[400px] flex justify-center bg-[#FFC045] ">
-      <div  className="bg-[#FFC95F] rounded-3xl shadow-lg  shadow-[#065471] max-w-2xl p-32 mb-20 mt-12 space-y-8 border-1 border-[#065471]" >
-        <div className="space-y-6 text-center " >
+        <div className="bg-[#FFC95F] rounded-3xl shadow-lg  shadow-[#065471] max-w-2xl p-32 mb-20 mt-12 space-y-8 border-1 border-[#065471]">
+          <div className="space-y-6 text-center ">
             <div>
               <h1 className="text-balance text-5xl font-bold tracking-tight text-[#065471] sm:text-7xl pl-[1.5rem]">
                 Which One Am I?
@@ -31,6 +31,5 @@ export default function HomePage() {
         </div>
       </div>
     </div>
-  
   );
 }

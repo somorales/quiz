@@ -4,10 +4,8 @@ import logo from "../assets/images/logo.png";
 
 export default function NavBar() {
   return (
-
-   
     <header>
-      <nav className= "bg-[#FFC045]">
+      <nav className="bg-[#FFC045]">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <Link to="/">
             <span className="sr-only">logo</span>
@@ -16,7 +14,7 @@ export default function NavBar() {
           <div className="flex flex-row justify-between gap-8 text-xl">
             <Link
               to="/playGuide"
-              className= "text-[#065471] hover:text-[#053E53] hover:font-bold"
+              className="text-[#065471] hover:text-[#053E53] hover:font-bold"
             >
               Play Guide
             </Link>
@@ -24,9 +22,5 @@ export default function NavBar() {
         </div>
       </nav>
     </header>
-)
-  
+  );
 }
-
-     
-  
