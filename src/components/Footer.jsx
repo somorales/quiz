@@ -13,7 +13,7 @@ export default function Footer() {
       </p>
 
       <div className="flex justify-between items-center">
-        <a href="https://sofimorales.com/" className="_blank">
+        <a href="https://sofimorales.com/" target="_blank">
           <img src={logoSofi} alt="logoSofi" className="w-28 h-auto" />
         </a>
       </div>
