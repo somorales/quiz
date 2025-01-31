@@ -17,6 +17,9 @@ export default function Game() {
         Press start and then stop!
       </p>
       <QuizList allQuiz={allQuiz} setAllQuiz={setAllQuiz} />
+      <button className="bg-[#065471] border-2 border-[#FFC045] rounded-3xl hover:bg-[#FFC045] hover:border-[#065471]  hover:text-[#065471]    px-3.5 py-2.5 shadow-sm w-80 font-bold text-white text-center">
+        start
+      </button>
     </div>
   );
 }

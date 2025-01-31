@@ -1,24 +1,29 @@
 import React from "react";
+import { useState } from "react";
 
 export default function Quiz(props) {
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+
   return (
-    <div>
-      <div className="bg-gray-100 p-6 rounded-lg">
-        <h2 className="text-medium font-bold mb-4">
-          {props.eachQuiz.question}
-        </h2>
-        <ul className="space-y-2">
-          <li className="bg-white p-4 rounded-lg shadow-md">
-            {props.eachQuiz.answer1}
+    <div className="bg-gray-100 p-6 rounded-lg">
+      <h2 className="text-medium font-bold mb-4">{props.eachQuiz.question}</h2>
+      <ul className="space-y-2">
+        {[
+          props.eachQuiz.answer1,
+          props.eachQuiz.answer2,
+          props.eachQuiz.answer3,
+        ].map((answer, index) => (
+          <li
+            key={index}
+            className={`p-4 rounded-lg shadow-md cursor-pointer ${
+              selectedAnswer === answer ? "bg-blue-500 text-white" : "bg-white"
+            }`}
+            onClick={() => setSelectedAnswer(answer)}
+          >
+            {answer}
           </li>
-          <li className="bg-white p-4 rounded-lg shadow-md">
-            {props.eachQuiz.answer2}
-          </li>
-          <li className="bg-white p-4 rounded-lg shadow-md">
-            {props.eachQuiz.answer3}
-          </li>
-        </ul>
-      </div>
+        ))}
+      </ul>
     </div>
   );
 }
