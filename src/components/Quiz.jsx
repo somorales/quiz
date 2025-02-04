@@ -14,13 +14,16 @@ export default function Quiz(props) {
   return (
     <div>
       <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-        <div className="bg-white w-48 h-48" onClick={flipCard}></div>
+        <div
+          className="bg-white w-[300px] h-[300px] rounded-lg"
+          onClick={flipCard}
+        ></div>
 
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <h2 className="text-medium font-bold mb-4">
+        <div className="bg-gray-100 p-6 rounded-lg  w-[300px] h-[300px]">
+          <h2 className="font-mono text-sm font-bold mb-4">
             {props.eachQuiz.question}
           </h2>
-          <ul className="space-y-2">
+          <ul className="space-y-2 text-sm">
             {[
               props.eachQuiz.answer1,
               props.eachQuiz.answer2,
@@ -28,7 +31,7 @@ export default function Quiz(props) {
             ].map((answer, index) => (
               <li
                 key={index}
-                className={`p-4 rounded-lg shadow-md cursor-pointer ${
+                className={`p-2 hover:bg-sky-700  rounded-lg shadow-md cursor-pointer ${
                   selectedAnswer === answer
                     ? "bg-blue-500 text-white"
                     : "bg-white"
