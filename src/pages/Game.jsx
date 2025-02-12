@@ -20,9 +20,6 @@ export default function Game(props) {
     setQuizesWithtAnswer,
   } = props;
 
-  console.log("quizesWithoutAnswer", quizesWithoutAnswer.length);
-  console.log("quizesWithAnswer", quizesWithAnswer.length);
-
   const onAnswerSelected = (quiz, answerSelected) => {
     // Encontrar quiz en quizesCopy y agregarle un atributo, selected que valga answerSelected
     const quizesCopy = [...quizesWithAnswer];
