@@ -1,8 +1,8 @@
 import React from "react";
-import { useState } from "react";
-import quiz from "../quiz.json";
+
 import QuizList from "../components/QuizList";
 
+//for(let i= 0; i<=longitud de array. lengthg; i++)---- itera los elementos de 0 hasta la longitud final= foreach
 function shuffleArray(array) {
   for (let i = array.length - 1; i >= 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -12,14 +12,40 @@ function shuffleArray(array) {
   }
 }
 
-export default function Game() {
-  const [allQuizes, setAllQuizes] = useState(quiz);
+export default function Game(props) {
+  const {
+    quizesWithoutAnswer,
+    setQuizesWithoutAnswer,
+    quizesWithAnswer,
+    setQuizesWithtAnswer,
+  } = props;
+
+  console.log("quizesWithoutAnswer", quizesWithoutAnswer.length);
+  console.log("quizesWithAnswer", quizesWithAnswer.length);
+
+  const onAnswerSelected = (quiz, answerSelected) => {
+    // Encontrar quiz en quizesCopy y agregarle un atributo, selected que valga answerSelected
+    const quizesCopy = [...quizesWithAnswer];
+    quiz.selected = answerSelected;
+    quizesCopy.push(quiz);
+    setQuizesWithtAnswer(quizesCopy);
+  };
 
   const handleNextQuiz = () => {
-    //const shuffled = [...allQuizes].sort(() => Math.random() - 0.5);
-    const quizesCopy = [...allQuizes];
-    shuffleArray(quizesCopy);
-    setAllQuizes(quizesCopy);
+    // sacar el quiz recién respondido del array quizesWithoutAnswer
+    const newQuizesWithoutAnswer = quizesWithoutAnswer.filter((quiz) => {
+      // quiz NO tiene que estar en la lista quizesWithAnswer para formar parte de quizesWithoutAnswer
+      let keepQuiz = true;
+      for (let i = 0; i < quizesWithAnswer.length; i++) {
+        if (quiz.id === quizesWithAnswer[i].id) {
+          keepQuiz = false;
+          break;
+        }
+      }
+      return keepQuiz;
+    });
+    shuffleArray(newQuizesWithoutAnswer);
+    setQuizesWithoutAnswer(newQuizesWithoutAnswer);
   };
 
   return (
@@ -32,7 +58,10 @@ export default function Game() {
         <p className="mt-2 text-pretty mb-4 text-lg font-medium text-[#065471]">
           Press start and then stop!
         </p>
-        <QuizList allQuiz={allQuizes.slice(0, 6)} />
+        <QuizList
+          allQuiz={quizesWithoutAnswer.slice(0, 6)}
+          onAnswerSelected={onAnswerSelected}
+        />
 
         <button
           onClick={handleNextQuiz}

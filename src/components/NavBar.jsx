@@ -18,6 +18,13 @@ export default function NavBar() {
             >
               Play Guide
             </Link>
+
+            <Link
+              to="/answers"
+              className="text-[#065471] hover:text-[#053E53] hover:font-bold"
+            >
+              Answers
+            </Link>
           </div>
         </div>
       </nav>

@@ -4,11 +4,16 @@ import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
 export default function Quiz(props) {
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [isFlipped, setIsFlippled] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState(props.eachQuiz.selected);
+  const [isFlipped, setIsFlippled] = useState(props.isFlipped);
 
   function flipCard() {
     setIsFlippled(!isFlipped);
+  }
+
+  function handleAnswer(quiz, answer) {
+    setSelectedAnswer(answer);
+    props.onAnswerSelected(quiz, answer);
   }
 
   return (
@@ -24,21 +29,17 @@ export default function Quiz(props) {
             {props.eachQuiz.question}
           </h2>
           <ul className="space-y-2 text-sm">
-            {[
-              props.eachQuiz.answer1,
-              props.eachQuiz.answer2,
-              props.eachQuiz.answer3,
-            ].map((answer, index) => (
+            {["answer1", "answer2", "answer3"].map((answerProperty, index) => (
               <li
                 key={index}
                 className={`p-2 hover:bg-sky-700  rounded-lg shadow-md cursor-pointer ${
-                  selectedAnswer === answer
+                  selectedAnswer === answerProperty
                     ? "bg-blue-500 text-white"
                     : "bg-white"
                 }`}
-                onClick={() => setSelectedAnswer(answer)}
+                onClick={() => handleAnswer(props.eachQuiz, answerProperty)}
               >
-                {answer}
+                {props.eachQuiz[answerProperty]}
               </li>
             ))}
           </ul>
