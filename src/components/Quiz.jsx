@@ -8,7 +8,10 @@ export default function Quiz(props) {
   const [isFlipped, setIsFlippled] = useState(props.isFlipped);
 
   function flipCard() {
-    setIsFlippled(!isFlipped);
+    if (props.userHasFlippedQuiz === false) {
+      setIsFlippled(!isFlipped);
+      props.setUserHasFlippedQuiz(true);
+    }
   }
 
   function handleAnswer(quiz, answer) {
@@ -20,7 +23,7 @@ export default function Quiz(props) {
     <div>
       <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
         <div
-          className="bg-white w-[300px] h-[300px] rounded-lg"
+          className={`${props.color} w-[300px] h-[300px] rounded-lg`} //si quiero meter una expresion de js tengo que usar llaves
           onClick={flipCard}
         ></div>
 

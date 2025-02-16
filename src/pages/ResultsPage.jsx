@@ -24,7 +24,7 @@ export default function ResultsPage(props) {
       <div className="bg-[#FFC045] text-center text-[#053E53] py-16 flex flex-col items-center">
         <div className="flex flex-col items-center"></div>
         <h3 className="text-5xl font-semibold mb-4 text-[#053E53] ">
-          Your Answers
+          Your Answered {quizesWithAnswer.length} quizes
         </h3>
 
         <QuizList allQuiz={currentQuizzes} isFlipped={true} />

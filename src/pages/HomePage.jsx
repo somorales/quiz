@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
-export default function HomePage() {
+export default function HomePage(props) {
+  if (props.quizesWithAnswer.length > 0) {
+    return <Navigate to="/game" />;
+  }
+
   return (
     <div>
       <div className=" min-h-[400px] flex justify-center bg-[#FFC045] ">

@@ -19,7 +19,10 @@ export default function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/"
+          element={<HomePage quizesWithAnswer={quizesWithAnswer} />}
+        />
         <Route
           path="game"
           element={
