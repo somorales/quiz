@@ -3,7 +3,7 @@ import React from "react";
 export default function PlayGuide() {
   return (
     <div>
-      <div className="bg-[#FFC045]">
+      <div className="bg-white">
         <div className="mx-auto min-h-screen text-[#065471] py-16 max-w-container px-6 sm:px-8 lg:px-48">
           <div className="flex flex-col lg:flex-row justify-center">
             <div className="lg:w-2/3 space-y-6">

@@ -5,7 +5,7 @@ import logo from "../assets/images/logo.png";
 export default function NavBar() {
   return (
     <header>
-      <nav className="bg-[#FFC045]">
+      <nav className="bg-white">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <Link to="/">
             <span className="sr-only">logo</span>

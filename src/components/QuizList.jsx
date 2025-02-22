@@ -34,7 +34,13 @@ export default function QuizList(props) {
               isFlipped={props.isFlipped}
               userHasFlippedQuiz={props.userHasFlippedQuiz}
               setUserHasFlippedQuiz={props.setUserHasFlippedQuiz}
-              color={props.colors[index]}
+              // usamos ternario para cubrir correctamente el prop colors que es un prop opcional
+              // cuando no recibimos colors entonces usamos por defecto bg-white
+              color={
+                props.colors !== undefined && props.colors.length > 0
+                  ? props.colors[index]
+                  : "bg-white"
+              }
             />
           );
         })}
