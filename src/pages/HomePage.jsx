@@ -12,7 +12,7 @@ export default function HomePage(props) {
     <div className="flex flex-col min-h-screen bg-[#E2DCCE] px-[13.75rem] p-4">
       <div className="flex-grow flex justify-top flex-col items-center">
         <div className="max-w-md w-full flex flex-col items-center ">
-          <div className="pb-32 pt-32">
+          <div className="pb-24 pt-28">
             <img src={home} className="w-[68rem] h-auto" />
           </div>
         </div>

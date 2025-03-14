@@ -23,7 +23,7 @@ export default function Quiz(props) {
     <div>
       <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
         <div
-          className={`${props.color} w-[300px] h-[300px] rounded-lg`} //si quiero meter una expresion de js tengo que usar llaves
+          className={`${props.color} w-[300px] h-[300px] rounded-lg shadow-md shadow-[#AB4826] border border-solid border-black`} //si quiero meter una expresion de js tengo que usar llaves
           onClick={flipCard}
         ></div>
 

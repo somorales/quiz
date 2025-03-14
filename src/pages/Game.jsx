@@ -4,12 +4,12 @@ import { useState } from "react";
 
 // el tamaño de colors tiene que ser igual o menor que el slice de quizes que se muestra
 const listColors = [
-  "bg-[#FFC567]",
-  "bg-[#FC7DA8]",
-  "bg-[#FD5B47]",
-  "bg-[#552CB8]",
-  "bg-[#009A5E]",
-  "bg-[#058CD6]",
+  "bg-[#F4A7B9]",
+  "bg-[#66B3E7]",
+  "bg-[#E06641]",
+  "bg-[#458455]",
+  "bg-[#4545E5]",
+  "bg-[#F7BF3D]",
 ];
 
 //for(let i= 0; i<=longitud de array. lengthg; i++)---- itera los elementos de 0 hasta la longitud final= foreach
@@ -71,14 +71,12 @@ export default function Game(props) {
 
   return (
     <div>
-      <div className="bg-[#F1EAE0] text-center text-[#053E53] py-16 flex flex-col items-center">
+      <div className="bg-[#E2DCCE] text-center  py-8 flex flex-col items-center">
         <div className="flex flex-col items-center"></div>
-        <h3 className="text-5xl font-semibold mb-4 text-[#053E53] ">
+        <h3 className="text-3xl font-semibold mb-4 text-[#7A2B01]  ">
           Find your question!
         </h3>
-        <p className="mt-2 text-pretty mb-4 text-lg font-medium text-[#065471]">
-          Press start and then stop!
-        </p>
+
         <QuizList
           allQuiz={quizesWithoutAnswer.slice(0, 6)}
           onAnswerSelected={onAnswerSelected}
@@ -89,7 +87,7 @@ export default function Game(props) {
 
         <button
           onClick={shuffleDeck}
-          className="bg-[#697BBB] border-2 border-white rounded-3xl hover:bg-[#FFC045] hover:border-[#065471]  hover:text-[#065471]    px-3.5 py-2.5 shadow-sm w-80 font-bold text-white text-center"
+          className=" mt-8 bg-[#78AFA9]  border border-solid border-black rounded-full hover:bg-[#AB4826]  hover:text-[#E2DCCE] px-3.5 py-2.5 shadow-sm w-80 font-bold text-black text-center"
         >
           Shuffle
         </button>

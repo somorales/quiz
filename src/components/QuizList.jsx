@@ -24,7 +24,7 @@ const multiplicarPorCuatro = (numero) => numero * 4;
 export default function QuizList(props) {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-4  mb-4">
+      <div className="grid grid-cols-3 gap-4 mb-4 shadow-md">
         {props.allQuiz.map((eachQuiz, index) => {
           return (
             <Quiz
