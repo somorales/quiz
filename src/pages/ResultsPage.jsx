@@ -21,10 +21,10 @@ export default function ResultsPage(props) {
   };
   return (
     <div>
-      <div className="bg-white text-center text-[#053E53] py-16 flex flex-col items-center">
+      <div className="bg-[#E2DCCE] text-center min-h-screen  py-8 flex flex-col items-center">
         <div className="flex flex-col items-center"></div>
-        <h3 className="text-5xl font-semibold mb-4 text-[#053E53] ">
-          Your Answered {quizesWithAnswer.length} quizes
+        <h3 className="text-3xl font-semibold mb-4 text-[#7A2B01]  ">
+          Your Answered {quizesWithAnswer.length} quizes!
         </h3>
 
         <QuizList allQuiz={currentQuizzes} isFlipped={true} />
@@ -32,7 +32,7 @@ export default function ResultsPage(props) {
           {page > 0 && (
             <button
               onClick={handlePrevPage}
-              className="bg-[#065471] border-2 border-[#FFC045] rounded-3xl hover:bg-[#FFC045] hover:border-[#065471] hover:text-[#065471] px-3.5 py-2.5 shadow-sm w-40 font-bold text-white text-center"
+              className=" mt-8 bg-[#78AFA9]  border border-solid border-black rounded-full hover:bg-[#AB4826]  hover:text-[#E2DCCE] px-3.5 py-2.5 shadow-sm w-80 font-bold text-black text-center"
             >
               Previous
             </button>
@@ -40,9 +40,9 @@ export default function ResultsPage(props) {
           {endIndex < quizesWithAnswer.length && (
             <button
               onClick={handleNextPage}
-              className="bg-[#065471] border-2 border-[#FFC045] rounded-3xl hover:bg-[#FFC045] hover:border-[#065471]  hover:text-[#065471]    px-3.5 py-2.5 shadow-sm w-80 font-bold text-white text-center"
+              className=" mt-8 bg-[#78AFA9]  border border-solid border-black rounded-full hover:bg-[#AB4826]  hover:text-[#E2DCCE] px-3.5 py-2.5 shadow-sm w-80 font-bold text-black text-center"
             >
-              next
+              Next
             </button>
           )}
         </div>

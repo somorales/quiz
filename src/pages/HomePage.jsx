@@ -17,12 +17,12 @@ export default function HomePage(props) {
           </div>
         </div>
 
-        <div className=" pb-8 text-[#7A2B01] text-xl">Let see!</div>
+        <div className=" pb-8 text-[#7A2B01] text-xl">Let's see!</div>
         <Link
           to="/game"
           className="bg-[#78AFA9]  border border-solid border-black rounded-full hover:bg-[#AB4826]  hover:text-[#E2DCCE] px-3.5 py-2.5 shadow-sm w-80 font-bold text-black text-center"
         >
-          Get Start
+          Get Started
         </Link>
       </div>
     </div>
