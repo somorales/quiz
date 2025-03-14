@@ -3,14 +3,18 @@ import React from "react";
 export default function PlayGuide() {
   return (
     <div>
-      <div className="bg-white">
-        <div className="mx-auto min-h-screen text-[#065471] py-16 max-w-container px-6 sm:px-8 lg:px-48">
+      <div className="bg-[#E2DCCE] text-center  py-8 flex flex-col items-center min-h-screen ">
+        <div className="mx-auto    py-16 max-w-container px-6 sm:px-8 lg:px-48">
           <div className="flex flex-col lg:flex-row justify-center">
             <div className="lg:w-2/3 space-y-6">
-              <p className="text-2xl">Hello there! Welcome to...</p>
-              <h1 className="text-5xl font-bold mb-8">Which One Am I?</h1>
+              <p className="text-2xl font-semibold text-[#7A2B01]">
+                Hello there! Welcome to...
+              </p>
+              <h1 className="text-5xl font-black mb-8 text-[#AB4826]">
+                What would I choose?
+              </h1>
 
-              <h3 className="text-2xl mb-6">
+              <h3 className="text-lg mb-6 text-[#7A2B01]">
                 That's the beginning of this super fun question game where you
                 can check if your favorite people really know you well. Start by
                 shuffling the 90 cards you'll find inside, and then, taking
