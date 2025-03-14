@@ -27,15 +27,15 @@ export default function Quiz(props) {
           onClick={flipCard}
         ></div>
 
-        <div className="bg-gray-100 p-6 rounded-lg  w-[300px] h-[300px]">
-          <h2 className="font-mono text-sm font-bold mb-4">
+        <div className=" bg-[#E2DCCE] p-6 rounded-lg  w-[300px] h-[300px] shadow-md shadow-[#AB4826] border border-solid border-black">
+          <h2 className=" text-lg font-bold mb-4 text-[#7A2B01] ">
             {props.eachQuiz.question}
           </h2>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-4 text-sm">
             {["answer1", "answer2", "answer3"].map((answerProperty, index) => (
               <li
                 key={index}
-                className={`p-2 hover:bg-sky-700  rounded-lg shadow-md cursor-pointer ${
+                className={`p-2 hover:bg-[#7AAEA9] rounded-lg shadow-md cursor-pointer ${
                   selectedAnswer === answerProperty
                     ? "bg-blue-500 text-white"
                     : "bg-white"
