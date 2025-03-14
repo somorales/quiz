@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navigate } from "react-router-dom";
+import ask from "../assets/images/Ask.png";
 
 export default function HomePage(props) {
   if (props.quizesWithAnswer.length > 0) {
@@ -8,32 +9,28 @@ export default function HomePage(props) {
   }
 
   return (
-    <div>
-      <div className=" min-h-[400px] flex justify-center bg-white ">
-        <div className="bg-white rounded-3xl shadow-lg  shadow-[#065471] max-w-2xl p-32 mb-20 mt-12 space-y-8 border-1 border-[#065471]">
-          <div className="space-y-6 text-center ">
-            <div>
-              <h1 className="text-balance text-5xl font-bold tracking-tight text-[#065471] sm:text-7xl pl-[1.5rem]">
-                Which One Am I?
-              </h1>
-            </div>
-            <h3 className="mt-8 text-pretty text-2xl font-semibold text-[#065471]">
-              Think You Know Yourself? Answer These 90 Questions and See!
-            </h3>
-
-            <p className="mt-8 text-pretty text-base font-medium text-[#065471]">
-              Are you ready?
-            </p>
-            <div className="my-10 flex flex-col items-center justify-center gap-2">
-              <Link
-                to="/game"
-                className="bg-[#065471] border-2 border-white rounded-3xl hover:bg-[#FFC045] hover:border-[#065471]  hover:text-[#065471]    px-3.5 py-2.5 shadow-sm w-80 font-bold text-white text-center"
-              >
-                Get Start
-              </Link>
-            </div>
+    <div className="flex flex-col items-center absolute  w-full px-[13.75rem]  bg-[#E2DCCE] p-4">
+      <div className="max-w-md w-full flex flex-col items-center space-y-4">
+        <div className="flex items-end space-x-2">
+          <h1 className="text-4xl font-bold text-amber-800 text-center">
+            What would I choose
+          </h1>
+          <div className="text-6xl text-amber-800 mb-2">
+            <img src={ask} className="w-64 h-auto" />
           </div>
         </div>
+
+        <h2 className="text-3xl font-semibold text-amber-800 mt-2">
+          Think You Know Yourself
+        </h2>
+
+        <div className="mt-12 text-amber-800 text-xl">Let see!</div>
+        <Link
+          to="/game"
+          className="bg-[#78AFA9] rounded-full hover:bg-[#FFC045] hover:border-[#065471]  hover:text-[#065471]    px-3.5 py-2.5 shadow-sm  font-bold text-black text-center"
+        >
+          Get Start
+        </Link>
       </div>
     </div>
   );
