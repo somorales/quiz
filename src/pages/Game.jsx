@@ -24,7 +24,6 @@ function shuffleArray(array) {
 
 export default function Game(props) {
   const {
-    //destructuring
     quizesWithoutAnswer,
     quizesWithAnswer,
     setQuizesWithoutAnswer,
