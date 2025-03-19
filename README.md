@@ -13,9 +13,9 @@ Do you really know yourself? ‘What Would I Choose’ is a question game that c
 ## Technologies, Libraries & APIs used
 
 - **Frontend:** React, HTML5, CSS3, JavaScript
-- **Backend:** Node.js
+
 - **Styling:** Tailwind
-- **HTTP client:** Axios
+
 - **Version control:** GitHub
 - **Deployment:** Netlify (Frontend)
 
@@ -45,7 +45,7 @@ Do you really know yourself? ‘What Would I Choose’ is a question game that c
 
 ## Other Components
 
-- **Navbar:** Navigation bar with links to the main sections of the app (home,answered and playguide).
+- **Navbar:** Navigation bar with links to the main sections of the app (home and profile).
 - **Footer:** Link to my website.
 
 ## Links
