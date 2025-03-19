@@ -1,6 +1,6 @@
-# quiz
+# What Would I Choose
 
-## [See the App!]
+## [See the App!](https://what-would-i-choose.netlify.app)
 
 ![quiz Logo](./src/assets/images/logo.png)
 
@@ -54,7 +54,7 @@ Do you really know yourself? ‘What Would I Choose’ is a question game that c
 
 [Repository Link Client](https://github.com/somorales/quiz)
 
-[Deploy Link]
+[Deploy Link](https://what-would-i-choose.netlify.app)
 
 ### Model Planning
 
